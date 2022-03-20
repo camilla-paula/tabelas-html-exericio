@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas HTML</title>
+    <link
+      rel="shortcut icon"
+      href="./images/tabela-icon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <header><h1 style="text-align: center">Tabelas</h1></header>
+  <body style="background-color: #dddddd">
+    <main>
+      <div>
+        <table
+          border="3"
+          style="border-style: dashed"
+          width="500px"
+          align="center"
+        >
+          <tr style="text-align: left">
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr style="text-align: center">
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+          <tr style="text-align: right">
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div>
+        <table
+          border="5"
+          style="border-style: dotted"
+          width="500px"
+          align="center"
+        >
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+          </tr>
+          <tr style="text-align: center">
+            <td colspan="3">4</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+          </tr>
+        </table>
+      </div>
+      <br />
+      <div>
+        <table
+          border="3"
+          style="border-style: double"
+          width="500px"
+          align="center"
+        >
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" style="text-align: center">3</td>
+          </tr>
+          <tr style="text-align: center">
+            <td colspan="2">4</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>6</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <p style="text-align: center">
+      <a href="./layout-site.html">Abrir Layout de Site</a> <br />
+      <a href="./tabelas-modelos.html">Abrir Modelos de Tabelas</a>
+    </p>
+  </footer>
+</html>
